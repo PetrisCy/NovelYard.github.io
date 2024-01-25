@@ -15,7 +15,8 @@
 body {
   overflow-x: hidden;
   /* background-color: #f7efef; */
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
+  background: linear-gradient(to right, #ffffff, #eae7ec, #e7dfeb);
 }
 header {
   background: linear-gradient(to right, #ffffff, #eae7ec, #e7dfeb);
