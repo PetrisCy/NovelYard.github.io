@@ -88,6 +88,7 @@ header {
     position: absolute;
     left: 40%;
   }
+
   #logoname {
     display: none;
   }
@@ -155,6 +156,7 @@ header {
   padding: 0 10px;
 }
 .text {
+  font-family: 'Montserrat', sans-serif;
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
@@ -297,5 +299,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .text {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
